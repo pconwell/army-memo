@@ -1,11 +1,17 @@
 
+Original project founded and created by George L. Allen (2011)
+Updates added by Patrick Conwell (2014)
+
+This project aims to update Mr. Allen's original project (which appears
+to have been abandoned approximately 2 years ago (as of Aug 2014), and will
+be focused on a linux system (Ubuntu, specifically).
+
+****************************************************************************
+
 Army Memorandum in Latex
 ---------------------
 
 Provides a basic AR 25-50 memo in latex.
-
-
-
 
 -----------------------------------------------------------------------------
 Copyright (c) 2011 George L. Allen <glallen01@gmail.com> All rights reserved.
@@ -18,7 +24,3 @@ version.
 This program is distributed in the hope that it will be useful, but WITHOUT ANY
 WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 PARTICULAR PURPOSE.  See the GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License along with
-this program; if not, write to the Free Software Foundation, Inc., 59 Temple
-Place, Suite 330, Boston, MA  02111-1307  USA
