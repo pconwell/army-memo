@@ -1,10 +1,22 @@
 
 Original project founded and created by George L. Allen (2011)
-Updates added by Patrick Conwell (2014)
+Updated by Patrick Conwell (2014)
 
 This project aims to update Mr. Allen's original project (which appears
 to have been abandoned approximately 2 years ago (as of Aug 2014), and will
 be focused on a linux system (Ubuntu, specifically).
+
+My goals starting out are to make a 'shell' memo that uses only packages that
+are installed by default in texlive on ubuntu to maximize portability and
+ease of use for less technically inclinded individuals.
+
+At this time (24 Aug 2014), the shell is 95% complete and is usable. The
+code is ugly as hell, but it works well. Ultimately, I'm going to clean up
+the shell to make the code prettier and create a second 'advanced' shell
+that will require user packages to be installed, but will have a lot more
+functionality (eg enumeration). I doubt I'll get around to it, but I'd like
+to one day create a python (or some language) script that takes user input and
+spits out a fully formatted pdf memo - but don't hold your breath on that one.
 
 ****************************************************************************
 
@@ -14,13 +26,3 @@ Army Memorandum in Latex
 Provides a basic AR 25-50 memo in latex.
 
 -----------------------------------------------------------------------------
-Copyright (c) 2011 George L. Allen <glallen01@gmail.com> All rights reserved.
-
-This program is free software; you can redistribute it and/or modify it under
-the terms of the GNU General Public License as published by the Free Software
-Foundation; either version 2 of the License, or (at your option) any later
-version.
-
-This program is distributed in the hope that it will be useful, but WITHOUT ANY
-WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
-PARTICULAR PURPOSE.  See the GNU General Public License for more details.
