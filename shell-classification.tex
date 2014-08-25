@@ -1,21 +1,30 @@
 % For my printer and adobe version, I have to set up the margins as follows ans select "print orignal" or whatever it says.
 \documentclass[12pt,letterpaper,oneside]{report}
-
+%top .20, bottom .20
 \usepackage[top=0.5625in, bottom=1.0in, left=1.0625in, right=0.9375in]{geometry}
 % Acutal dimensions below, those above are hacked to fix 1/16in left & down shift in my printer.
 %\usepackage[top=0.5625in, bottom=1.0in, left=1.0625in, right=0.9375in]{geometry}
 \usepackage{graphicx}
 \usepackage{epstopdf}
 \usepackage{tikz}
+\usepackage{fancyhdr}
 \usepackage{helvet}
 \renewcommand{\familydefault}{\sfdefault}
+\renewcommand\headrule{}
+\renewcommand\footrule{}
 
 \begin{document}
-\thispagestyle{empty}
-
+%\thispagestyle{empty}
+\thispagestyle{fancy}
+\lhead{}
+\chead{\scriptsize{(UNCLASSIFIED // FOR OFFICIAL USE ONLY)}}
+\rhead{}
+\lfoot{}
+\cfoot{\vphantom{s}\vphantom{s}\vphantom{s}\scriptsize{(UNCLASSIFIED // FOR OFFICIAL USE ONLY)}}
+\rfoot{}
+%\renewcommand{\headrulewidth}{0.4pt}
+%\renewcommand{\footrulewidth}{0.4pt}
 %Classification is optional but probably a good idea
-%\setlength{\parskip}{-0.5in}
-%some text
 
 {\footnotesize \centerline{\textbf{DEPARTMENT OF THE ARMY}}}
 {\scriptsize \centerline{\textbf{ORGANIZATIONAL NAME/TITLE}}}
