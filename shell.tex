@@ -1,3 +1,4 @@
+% For my printer and adobe version, I have to set up the margins as follows ans select "print orignal" or whatever it says.
 \documentclass[12pt,letterpaper,oneside]{report}
 
 \usepackage[top=0.5625in, bottom=1.0in, left=1.0625in, right=0.9375in]{geometry}
@@ -18,12 +19,13 @@
 {\scriptsize \centerline{\textbf{CITY STATE 12345-1234}}}
 
 {\begin{tikzpicture}[remember picture, overlay]
-     \node [anchor=north west, inner sep=0.5in] at (current page.north west)
+% don't ask why the picture has to be shifted to these somwewhat random coordinates - I don't know. But this is what gets the seal to 0.5in from top and left.
+     \node [xshift=-0.25in,yshift=0.3125in] at (0,0)
      {\includegraphics[height=1in]{DODb1.eps}};
   \end{tikzpicture}}
 
 \setlength{\parindent}{14.82mm}
-\setlength{\parskip}{-12pt}
+\setlength{\parskip}{-8pt}
 {\tiny REPLY TO}
 
 \setlength{\parindent}{14.82mm}
