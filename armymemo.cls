@@ -30,12 +30,12 @@
   \setlength{\footskip}{24pt}
 \RequirePackage[absolute]{textpos}
 \RequirePackage[utf8x]{inputenc}		% for windows quotes without having to sed them out
-\RequirePackage[T1]{fontenc}                	% For Times (Nimbus Roman) Font:
+\RequirePackage{fontspec} % Requires Xelatex.  Used to change font face to Arial.
 \RequirePackage{tgtermes}
 \RequirePackage{color}
 \RequirePackage{ctable}
+\RequirePackage{datetime} % used to change date format
 \RequirePackage{graphicx}
-\RequirePackage{lipsum}                     	% delete this later
 \RequirePackage{microtype}
 \RequirePackage{ragged2e} \RaggedRight      	% recommended by jurabib for better ragged right
 \RequirePackage{setspace}%\doublespacing    	% turns off in floats and tables
@@ -54,6 +54,12 @@
 %   http://en.wikibooks.org/wiki/LaTeX/Page_Layout#Widows_and_orphans
 %  \setlength{\parskip}{3ex plus 2ex minus 2ex}
 %  Additional reference: http://www.economics.utoronto.ca/osborne/latex/PMAKEUP.HTM
+
+% AR 25-50 recommends Arial as of 17 May 2013.  1-17b
+\setmainfont{Arial}
+
+% Army date format.  1-23a. Note, this is the long month name
+\newdateformat{armydate}{\THEDAY\ \monthname[\THEMONTH] \THEYEAR}
 
 \setlength{\parindent}{2em}
 
@@ -136,7 +142,7 @@
  \thispagestyle{plain}
  \pagestyle{body}
  \ \vspace*{12pt}\\      
- \noindent\usebox{\OSYMB}\hfill\today\\\ \\
+ \noindent\usebox{\OSYMB}\hfill\armydate\today\\\ \\ \ \\ % three blank lines 2-4a.5
  \noindent \AMfor\\\ \\
  \noindent SUBJECT: \AMsubject%\\\ \\\ \\
  \setlength{\parskip}{12pt}%\vspace*{-24pt}
@@ -149,9 +155,10 @@
 \newcommand{\AMsigblock}[4]{
 	\setlength{\parskip}{0pt}
 	\vspace{48pt}
-	\noindent\parbox[t]{2in}{\noindent #4}
-	\hfill\parbox[t]{0.5\textwidth}{\uppercase{#1\\#2}\\#3}
+	\noindent\parbox[t]{3in}{\noindent #4}
+	\hfill\parbox[t]{0.5\textwidth}{\uppercase{#1\\#2}\\#3}\\
 }
+% This should be overscored.
 \newcommand{\AMMOAsig}[7]{
 	\setlength{\parskip}{0pt}
 	\vspace{48pt}
