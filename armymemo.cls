@@ -142,9 +142,9 @@
  \thispagestyle{plain}
  \pagestyle{body}
  \ \vspace*{12pt}\\      
- \noindent\usebox{\OSYMB}\hfill\armydate\today\\\ \\ \ \\ % three blank lines 2-4a.5
+ \noindent\usebox{\OSYMB}\hfill\armydate\today\\\ \\ \ \\ % two blank lines 2-4a.5
  \noindent \AMfor\\\ \\
- \noindent SUBJECT: \AMsubject%\\\ \\\ \\
+ \noindent SUBJECT: \AMsubject\\\ \\% two blank lines 2-4b.1
  \setlength{\parskip}{12pt}%\vspace*{-24pt}
 }
 
