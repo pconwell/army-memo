@@ -1,0 +1,93 @@
+\documentclass[12pt,letterpaper,oneside]{report}
+
+\usepackage[top=0.625in, bottom=1in, left=1in, right=1in]{geometry}
+\usepackage{graphicx}
+\usepackage{epstopdf}
+\usepackage{tikz}
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+
+\begin{document}
+\thispagestyle{empty}
+
+{\footnotesize \centerline{\textbf{DEPARTMENT OF THE ARMY}}}
+{\scriptsize \centerline{\textbf{ORGANIZATIONAL NAME/TITLE}}}
+{\scriptsize \centerline{\textbf{STANDARDIZED STREET ADDRESS}}}
+{\scriptsize \centerline{\textbf{CITY STATE 12345-1234}}}
+
+{\begin{tikzpicture}[remember picture, overlay]
+     \node [anchor=north west, inner sep=0.5in] at (current page.north west)
+     {\includegraphics[height=1in]{DODb1.eps}};
+  \end{tikzpicture}}
+
+\setlength{\parindent}{14.82mm}
+\setlength{\parskip}{-12pt}
+{\tiny reply to}
+
+\setlength{\parindent}{14.82mm}
+\setlength{\parskip}{-8pt}
+{\tiny attention of}
+
+\setlength{\parskip}{12pt}
+\noindent
+OFFICE SYMBOL \hfill DATE
+
+\begin{raggedright}
+\setlength{\parskip}{24pt}
+\noindent
+MEMORANDUM FOR U.S. Army Command and General Staff College (ATZL), 100 stimson Avenue, Ft Leavenworth, KS 66027-1352
+
+\setlength{\parskip}{12pt}
+\noindent
+SUBJECT: Using and Preparing a Memorandum
+
+\setlength{\parskip}{24pt}
+\noindent
+1.\hphantom{.} See paragraph 2-2 (of this regulation) for when to use a memorandum.
+
+\setlength{\parskip}{12pt}
+\noindent
+2.\hphantom{.} Single space the text and double space between paragraphs and subparagraphs. Insert two blank spaces after ending punctuation (period and question mark). Insert two blank spaces after a colon. When numbering subparagraphs, insert two blank spaces after parentheses.
+
+\setlength{\parskip}{12pt}
+\noindent
+3.\hphantom{.} When a memorandum has more than one paragraph, number the paragraphs consecutively. When paragraphs are subdivided, designate first subdivisions using lowercase letters of the alphabet and indent 1/4 inch as shown below.
+
+\setlength{\parskip}{12pt}
+\setlength\parindent{0.25in}
+a.\hphantom{x} When a paragraph is subdivided, it must has at least two subparagraphs.
+
+\setlength{\parskip}{12pt}
+\setlength\parindent{0.25in}
+b.\hphantom{x} If there is a subparagraph "a," there must be a subparagraph "b."
+
+\setlength{\parskip}{12pt}
+\setlength\parindent{0.5in}
+(1)\hphantom{x} Designate second subdivisions by numbers in parenteses; for example, (1), (2), and (3) and indent 1/2 inch as shown.
+
+\setlength{\parskip}{12pt}
+\setlength\parindent{0.5in}
+(2)\hphantom{x} Do not subdivide beyond the third subdivision.
+
+\setlength{\parskip}{12pt}
+\setlength\parindent{0.5in}
+(a)\hphantom{x} Do not indent any futher than the second subdivision.
+
+\setlength{\parskip}{12pt}
+\setlength\parindent{0.5in}
+(b)\hphantom{x} Use (a), (b), (c), and so forth at this level.
+
+\setlength{\parskip}{48pt}
+\setlength\parindent{3.25in}
+JOHN W. SMITH
+
+\setlength{\parskip}{0pt}
+\setlength\parindent{3.25in}
+Colonel, GS
+
+\setlength{\parskip}{0pt}
+\setlength\parindent{3.25in}
+Chief of Staff
+
+\end{raggedright}
+\end{document}
