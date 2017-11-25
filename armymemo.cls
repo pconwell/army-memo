@@ -30,7 +30,6 @@
   \setlength{\footskip}{24pt}
 \RequirePackage[absolute]{textpos}
 \RequirePackage[utf8x]{inputenc}		% for windows quotes without having to sed them out
-\RequirePackage{fontspec} % Requires Xelatex.  Used to change font face to Arial.
 \RequirePackage{tgtermes}
 \RequirePackage{color}
 \RequirePackage{ctable}
