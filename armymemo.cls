@@ -56,8 +56,8 @@
 
 % AR 25-50 recommends Arial as of 17 May 2013.  1-17b
 % Use Helvet, 'free' Arial replacement
-\usepackage{helvet}
-\setmainfont{helvet}
+% \usepackage{helvet}
+% \setmainfont{helvet}
 
 % Army date format.  1-23a. Note, this is the long month name
 \newdateformat{armydate}{\THEDAY\ \monthname[\THEMONTH] \THEYEAR}
