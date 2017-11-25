@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/pconwell/army-memo.svg?branch=master)](https://travis-ci.org/pconwell/army-memo)
+[![Build Status](https://travis-ci.org/pconwell/army-memo.svg?branch=update)](https://travis-ci.org/pconwell/army-memo)
 
 Original project founded and created by George L. Allen (2011)
 Updates added by Patrick Conwell (2014)
